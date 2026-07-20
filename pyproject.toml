@@ -7,7 +7,12 @@ authors = [
     { name = "Movpasd", email = "54367524+movpasd@users.noreply.github.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "altair>=6.2.2",
+    "jupyterlab>=4.6.1",
+    "numpy>=2.5.1",
+    "polars>=1.42.1",
+]
 
 [build-system]
 requires = ["uv_build>=0.8.11,<0.9.0"]
