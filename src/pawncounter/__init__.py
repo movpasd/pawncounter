@@ -1,2 +1,3 @@
-def hello() -> str:
-    return "Hello from pawncounter!"
+from pawncounter.core import PawnCounter, Position
+
+__all__ = ["PawnCounter", "Position"]
