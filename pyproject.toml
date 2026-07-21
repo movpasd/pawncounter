@@ -12,6 +12,10 @@ dependencies = [
     "jupyterlab>=4.6.1",
     "numpy>=2.5.1",
     "polars>=1.42.1",
+    "polyscope>=2.6.1",
+    "pyamg>=5.3.0",
+    "scikit-learn>=1.9.0",
+    "scipy>=1.18.0",
 ]
 
 [build-system]
