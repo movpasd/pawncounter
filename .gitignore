@@ -220,3 +220,6 @@ __marimo__/
 # temporary files
 **/*.tmp
 **/*.tmp.*
+
+.polyscope.ini
+imgui.ini
